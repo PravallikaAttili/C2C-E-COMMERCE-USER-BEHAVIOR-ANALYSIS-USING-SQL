@@ -1,0 +1,169 @@
+📘 Project Information: Ecommerce C2C User Behavior Analysis (SQL Project)
+1️⃣ Project Title
+
+Customer-to-Customer (C2C) Ecommerce User Analytics using MySQL
+
+2️⃣ Project Overview
+
+The project focuses on analyzing user behavior on a Customer-to-Customer (C2C) ecommerce platform, where buyers and sellers interact directly.
+Using a dataset of 98,913 users with 27 attributes, MySQL queries were written to extract business insights related to:
+
+User demographics
+
+Device & app usage
+
+Buying and selling behavior
+
+Country-wise performance
+
+Platform engagement metrics
+
+Profile completeness & activity
+
+This analysis helps understand user trends that influence business decisions in a C2C marketplace.
+
+3️⃣ Business Problem Statement
+
+C2C ecommerce platforms must understand:
+
+Who their users are (demographics)
+
+Buying vs. selling trends
+
+App vs. website usage
+
+Country-wise active users
+
+Profile quality & login activity
+
+By analyzing user-level data, the platform can:
+
+Improve user engagement
+
+Target the right countries
+
+Promote buying/selling activities
+
+Increase conversion & retention
+
+Identify inactive users
+
+The project uses SQL to extract actionable insights from raw user data.
+
+4️⃣ Dataset Description
+
+File: users_data.csv
+Rows: 98,913
+Columns: 27
+
+Key columns include:
+
+Demographics: gender, country, language
+
+Engagement: daysSinceLastLogin
+
+Commerce Data: productsSold, productsBought, productsPassRate
+
+App Usage: hasAnyApp, hasAndroidApp, hasIosApp
+
+Social Metrics: socialNBFollowers, socialProductsLiked
+
+Profile Info: hasProfilePicture, productsWished
+
+5️⃣ Tools & Technologies Used
+
+MySQL Workbench
+
+SQL Queries (DDL & DML)
+
+Schema Creation
+
+Data Import Wizard
+
+Aggregation, Group By, Order By, Limit
+
+Filtering & Analytical Queries
+
+6️⃣ Key Tasks Performed
+✔ Schema Creation
+
+Created the ecommerce database and imported the dataset.
+
+✔ Exploratory Analysis using SQL
+
+Used DESC, LIMIT, COUNT, GROUP BY, and other commands to understand structure and preview data.
+
+✔ Business Insights Derived
+
+Queries were written to find:
+
+Number of distinct countries & languages
+
+Male vs Female followers
+
+Number of buyers & sellers by country
+
+App usage patterns
+
+Wishlist vs Like preference
+
+Top countries by product pass rate
+
+Users active recently
+
+Login inactivity above 100 days
+
+Count of male & female users per country
+
+Average buying/selling behavior of male users
+
+7️⃣ Major Insights (Summary)
+🔹 Followers
+
+Male and female follower counts compared using aggregation.
+
+🔹 App Usage
+
+Large number of users have Android or iOS apps installed.
+
+High number of users have profile pictures.
+
+🔹 Buyers & Sellers
+
+Countries ranked by number of buyers (descending).
+
+Countries ranked by number of sellers (ascending).
+
+Some countries have zero sellers.
+
+🔹 Product Activity
+
+Top 10 countries by product pass rate.
+
+🔹 Gender-Based Choices
+
+Wishlist vs social likes among females.
+
+Buyers vs sellers among males.
+
+🔹 User Activity
+
+Identified the top 110 recently active users.
+
+Count of female users inactive for over 100 days.
+
+🔹 Country-Specific Gender Counts
+
+Number of male and female users per country.
+
+8️⃣ Conclusion
+
+This project demonstrates how structured SQL analysis can uncover important behavior patterns in a C2C ecommerce environment. The insights help the business:
+
+Improve segmentation
+Target high-value regions
+Promote app usage
+Activate inactive users
+Understand buying & selling tendencies
+Identify gender-based product behavior
+The project illustrates strong hands-on skills in SQL, data analysis, and business interpretation.
